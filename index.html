@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Bank new </title>
+    
+    <style>
+        .main{width:1320px; height:800px;
+            
+            margin-top: 70px;
+            
+            
+            
+            background:url(https://i.pinimg.com/564x/46/7e/ce/467ecebfbb81b41e5d39b39fa9f637ae.jpg) no-repeat fixed ;
+            
+            background-size:100%;
+            
+          
+
+        
+        }
+        .mainin{width:920px; height:720px; 
+                     position:absolute;
+                     left:50px;
+                     top:120px;
+                     background-color: rgba(189, 216, 240, 0.103);
+                     
+                   
+        }
+        
+        .footer{width:220px; height:200px; text-align: center; background-color:rgba(255, 146, 132, 0.219);float:left}
+        .row{width:1320px; height:100px;
+
+        
+         
+            
+            
+            background-color: rgb(108, 213, 255);
+            
+            background-attachment: fixed; 
+
+            box-shadow:3px -3px 10px 10px gray;
+
+
+            
+            
+
+            
+            
+            position:fixed;
+             top:0px;}
+        
+        .row:hover{ width:1320px; height:100px;
+            
+            
+            background-color: rgb(11, 178, 245);
+            
+            background-attachment: fixed; 
+            
+            
+
+            }
+        
+            
+        
+        
+        
+        
+             #row1{width:1320px; height:200px;  background-color: rgba(108, 213, 255, 0.007); float:left}
+        #rowf{width:320px; height:200px;  background-color: rgba(108, 213, 255, 0.055);  
+              position:fixed;
+              right:50px;
+              bottom:5px; 
+            }
+
+            .Tekst{font-family:Georgia, 'Times New Roman', Times, serif;
+                   color: azure;
+                
+                text-shadow: 10px 10px 10px grey;}
+                 
+
+
+                .Tekstlow{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                   color: rgb(135, 111, 240);
+                
+                text-shadow: 10px 10px 10px grey;}
+       
+
+
+
+        
+         .col1{width:200px; height:200px; border-radius: 15%; background-color:rgba(252, 134, 55, 0.719);
+            box-shadow:3px -3px 10px 10px gray;float:left}
+            .col1:hover{width:200px; height:200px; border-radius: 15%; background-color:rgba(252, 134, 55, 0.979);
+            box-shadow:3px -3px 10px 10px gray;}
+         
+
+        
+        
+        .col2{width:200px; height:200px; border-radius: 15%; background-color:rgba(209, 252, 55, 0.507);position:absolute;left:230px;  box-shadow:3px -3px 10px 10px gray; }
+        .col2:hover{width:200px; height:200px;  background-color:rgba(220, 252, 106, 0.938);position:absolute;left:230px;  box-shadow:3px -3px 10px 10px gray; }
+        
+        .col3{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(55, 252, 81, 0.575);position:absolute;left:460px;box-shadow:3px -3px 10px 10px gray;}
+        .col3:hover{width:200px; height:200px; ; background-color:rgba(116, 248, 134, 0.973);position:absolute;left:460px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col4{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(55, 252, 193, 0.534); position:absolute;left:690px;box-shadow:3px -3px 10px 10px gray;}
+        .col4:hover{width:200px; height:200px; ; background-color:rgba(134, 245, 212, 0.884); position:absolute;left:690px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col5{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(55, 180, 252, 0.562); position:absolute;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        .col5:hover{width:200px; height:200px; ; background-color:rgba(143, 209, 247, 0.911); position:absolute;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col6{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(190, 55, 252, 0.555);position:absolute;left:230px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        .col6:hover{width:200px; height:200px; ; background-color:rgba(213, 137, 248, 0.918);position:absolute;left:230px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col7{width:200px; height:200px;border-radius: 15%; ; background-color:rgba(252, 55, 236, 0.568);position:absolute;left:460px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        .col7:hover{width:200px; height:200px; ; background-color:rgba(250, 127, 240, 0.959);position:absolute;left:460px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col8{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(252, 55, 121, 0.596);position:absolute;left:690px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        .col8:hover{width:200px; height:200px; ; background-color:rgba(253, 108, 157, 0.979);position:absolute;left:690px;top:230px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col9{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(252, 55, 88, 0.603);position:absolute;top:460px;box-shadow:3px -3px 10px 10px gray;}
+        .col9:hover{width:200px; height:200px; ; background-color:rgba(253, 110, 134, 0.932);position:absolute;top:460px;box-shadow:3px -3px 10px 10px gray;}
+        
+        .col10{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(252, 222, 55, 0.603);position:absolute;left:230px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+        .col10:hover{width:200px; height:200px; ; background-color:rgba(255, 236, 129, 0.938);position:absolute;left:230px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+       
+        .col11{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(133, 90, 252, 0.486);position:absolute;left:460px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+        .col11:hover{width:200px; height:200px; ; background-color:rgba(160, 128, 248, 0.884);position:absolute;left:460px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+       
+        .col12{width:200px; height:200px; border-radius: 15%; ; background-color:rgba(252, 167, 55, 0.911);position:absolute;left:690px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+        .col12:hover{width:200px; height:200px; ; background-color:rgba(248, 194, 124, 0.966);position:absolute;left:690px;top:460px;box-shadow:3px -3px 10px 10px gray;}
+
+
+        .urmv{text-decoration:none; font-size: 25px;color:rgb(41, 44, 247);font-family:monospace;}
+        .urmvsml{text-decoration:none; font-size: 19px;color:rgba(247, 41, 41, 0.829);font-family:monospace;}
+        
+        .detls{text-decoration:none; height: fit-content; width:fit-content;
+            
+            position:center;
+            
+            background-color: aliceblue; font-size: 15px;color:rgba(20, 0, 196, 0.979);
+            font-family:monospace}
+            
+            
+
+
+    </style>
+    
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    
+        
+                 
+         
+         
+    
+    
+    
+    
+    
+    <div class="main">
+
+
+
+        <div class="row" align="center">
+            
+            
+    <h1 class="Tekst" > English for Bank 
+        
+    </h1>
+    
+    <details class="detls"><summary>Defination</summary>
+        <p class="detls">a word or phrase that is used before a noun or pronoun to show place, time, direction, etc.
+            स्‍थान, समय, दिशा आदि के संकेत के लिए संज्ञा या सर्वनाम से पहले प्रयुक्त शब्‍द या वाक्‍यांश; पूर्वसर्ग
+        </p>
+    </details>
+
+    
+
+</div>
+        
+        
+        
+
+
+
+       
+    
+        
+     <div class="mainin"> 
+        <div id ="row1"> 
+            
+            
+        
+        
+        
+        
+        
+        
+        
+            
+            
+            <div class="col1" align="center">
+                <a href="https://www.youtube.com/watch?v=vC2_hacfr7I" class="urmv"> 
+                    <p class="Tekstlow">Preposition</p> 
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">a word or phrase that is used before a noun or pronoun to show place, time, direction, etc.
+                        स्‍थान, समय, दिशा आदि के संकेत के लिए संज्ञा या सर्वनाम से पहले प्रयुक्त शब्‍द या वाक्‍यांश; पूर्वसर्ग
+                    </p>
+                </details> 
+            </div>    
+
+                
+
+                    
+            
+
+            <div class="col2 hover"align="center">   
+                    <a href="https://www.youtube.com/watch?v=yqqhv9t0WSE"class="urmvsml"> 
+                        <p>
+                             Subject 
+                           Verb<br/> Agreement
+                        </p>
+                    </a>
+                    <details class="detls"><summary>Defination</summary>
+                        <p class="detls">Subject-verb agreement is the grammatical rule that the subject and verb in a sentence should use the same number,
+                             person, and gender.
+                        </p>
+                    </details>
+
+            </div>        
+            
+            
+
+            <div class="col3"align="center"> 
+                <a href="https://www.youtube.com/watch?v=9-dFEBkaWi4"class="urmv"> 
+                    <p>Adjectives</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">An adjective is a word that modifies or describes a noun or pronoun. Adjectives can be used to describe the qualities of someone or something independently or in comparison to something else
+
+                    </p>
+                </details>
+            </div>
+     
+            
+            <div class="col4"align="center">
+       
+                <a href="https://www.youtube.com/watch?v=Z_jlvxQEGHA"class="urmv">
+                     <p>Noun</p>
+                 </a>
+                 <details class="detls"><summary>Defination</summary>
+                    <p class="detls">A noun is a word that represents a person, thing, concept, or place 
+
+                    </p>
+                </details>
+            </div>           
+
+            
+
+        </div>
+            
+               
+                        
+                    
+
+                
+             
+
+        
+        
+        
+        
+        
+        <div id="row1"> 
+            <div class="col5"align="center" > 
+                <a href="https://www.youtube.com/watch?v=rN5-V5RJslU"class="urmv"> 
+                    <p>Pronoun</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">'A pronoun is a word that you use to refer to someone or something when you do not need 
+                        to use a noun, often because the person or thing has been mentioned earlier
+
+                    </p>
+                </details>
+
+            </div>
+
+            <div class="col6"align="center">
+                <a href="https://www.youtube.com/watch?v=RA94k_N0FA8"class="urmv">
+                    <p>Tenses</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">tense is the time of a verb's action or its state of being, such as present (something happening now),
+                         past (something happened earlier), or future (something going to happen).
+
+                    </p>
+                </details>
+             </div>       
+        
+
+            <div class="col7"align="center"> 
+                <a href="https://www.youtube.com/playlist?list=PLmrfuXtxLLHNk_3JgAY5KS-OzcZrihe5e"class="urmv"> 
+                    <p>Cloze test</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">Cloze Test is a form of fill in the blanks question where words are committed from a paragraph, and
+                         candidates have to fill the blanks with suitable words either grammatically or context-wise
+
+                    </p>
+                </details>    
+              
+            </div>
+  
+
+            <div class="col8"align="center">
+                <a href="https://www.youtube.com/watch?v=XbB3KxP-jH4"class="urmv"> 
+                    <p>Articles</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">a, an, and the. Articles are used before nouns or noun equivalents and are a type of adjective
+
+                    </p>
+                </details>
+            </div>
+        
+                
+            
+            
+        </div>
+                    
+
+            
+
+            
+        
+        
+
+
+
+
+
+
+
+
+        <div id="row1"> 
+            
+            
+            <div class="col9"align="center" >
+                <a href="https://www.youtube.com/playlist?list=PLmrfuXtxLLHO7JT7_0jQWhYhcWK2F24Wf"class="urmv">
+                     <p>Parajumbles</p>
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">Para-Jumble as the name refers to a paragraph wherein the sentences of the paragraph are jumbled and are assigned with some number or letter.
+
+                    </p>
+                </details>
+                    
+            </div>
+
+           
+            <div class="col10"align="center"> 
+                <a href="https://www.youtube.com/watch?v=Yc9Y1VH5Eg4"class="urmv">
+                    <p>Fillers</p></a>
+                <details class="detls"><summary>Defination</summary>
+                    <p class="detls">Filler are fill in the Blanks exercises posed in the common English segment.
+                         The aspirant has to select the correct word or phrase from the specified alternative.
+                    </p>
+                </details> 
+                    
+        
+            </div>   
+                
+
+
+            <div class="col11"align="center">
+                <a href="https://www.youtube.com/watch?v=4utdh2nBFZs"class="urmvsml">
+                    <p> Phrase<br/> Replacement </p>
+                     
+                    
+                </a>
+                <details class="detls"><summary>Defination</summary>
+                        <p class="detls">Phrase replacement refers to the type of question in which a certain sentence is given and some part of it is highlighted, 
+                            which is incorrect and need to be replace.
+                        </p>
+                </details>
+            </div>
+
+                
+
+            <div class="col12"align="center">
+                <a href="https://www.youtube.com/playlist?list=PLmrfuXtxLLHMIFnVjPHFUjs3EyZhhZAi-"class="urmvsml">
+                     <p> Reading<br/>Comprehension</p> 
+                 
+                 </a>
+                 <details class="detls"><summary>Defination</summary>
+                    <p class="detls">
+                        an exercise that tests how well you understand spoken or written language
+                        लिखित या मौखिक अभिव्‍यक्ति के बोधन को परखने के लिए अभ्‍यास
+                        
+                    </p>
+                </details>  
+            </div>
+        </div>
+                            
+        
+        
+        
+     </div> 
+
+        <div id="rowf">
+
+
+            <div class="footer">
+               
+                <h4 >  Page made by Sumit Singh   </h4>
+        
+                   <div>
+                     
+                       <img src="https://i.pinimg.com/236x/c3/fe/7a/c3fe7a48dc221333096cfc3e14b76908.jpg" width="100" height="100"alt="Sumit Singh">
+                          
+                   </div>       
+                   
+                   <div>
+                              
+                           <a href="https://www.instagram.com/symits54321?r=nametag"> <p> My Instagram </p>
+               
+                            </a>
+                   </div>
+   
+           
+            </div >
+
+
+
+
+
+        </div>
+        
+
+                
+            
+        
+        
+        
+        
+    </div>
+    
+    
+
+        
+
+                    
+
+
+
+                                    
+
+
+            
+        
+    
+
+
+
+
+
+</body>
+
+</html>
+
+
